@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "mongodb-memory-server": "^8.11.5"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
